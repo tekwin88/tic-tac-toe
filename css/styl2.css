@@ -13,8 +13,8 @@ h1 {
     float: left;
 }
 
-#boxParent {
-    /*display: block;
-    float:left;*/
-    max-width:560px;
+.row {
+    display: block;
+    float:left;
+    width:100%;
 }
