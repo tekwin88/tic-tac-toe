@@ -1,20 +1,47 @@
 h1 {
   color: red;
-}
-.box {
-    background: #9E9E9E;
-    border: black 1px solid;
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
-    margin-top: 0;
-    cursor: pointer;
-    display: inline-block;
-    float: left;
+  font-family: sans-serif;
+  font-size: 80px;
 }
 
-#boxParent {
-    /*display: block;
-    float:left;*/
-    max-width:560px;
+body {
+  font-family: sans-serif;
+  font-size: 3em;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+/*  l */
+}
+
+.grid {
+  font-family: sans-serif;
+  font-size: 80px;
+  height: 100px;
+  width: 100px;
+  background: lightblue;
+  border: 10px solid white;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#messageBody {
+  height: 100px;
+  width: 300px;
+  color: blue;
+  font-family: sans-serif;
+  font-size: 80px;
+/*  background: grey   */
+/*  background: rgb(221, 112, 20) */
+}
+
+#messageBody1 {
+  position: absolute;
+  bottom: -50px;
+  height: 100px;
+  width: 300px;
+  color: green;
+  font-family: sans-serif;
+  font-size: 80px;
+/*  background: grey   */
+/*  background: rgb(221, 112, 20) */
 }
